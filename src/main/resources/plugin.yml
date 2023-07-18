@@ -1,0 +1,11 @@
+name: TRADE
+version: '${project.version}'
+main: com.example.plugin.trade.TradePlugin
+author: MonkeyMoon104
+description: Plugin for trading items between players
+api-version: '1.19'
+
+commands:
+  trade:
+    description: Start a trade with another player
+    usage: /trade <player>
